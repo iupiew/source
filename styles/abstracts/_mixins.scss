@@ -1,7 +1,12 @@
 @mixin light-theme {
     color: $foreground;
     background: $background;
-    
+    .svg-el {
+        stroke: $accent;
+    }
+    .read-the-docs {
+        border-top: dashed 1.6px $accent;
+      }
     .secondary {
         color: $secondary;
     }
@@ -45,9 +50,12 @@
 @mixin dark-theme {
     color: $foreground-dark;
     background: $background-dark;
-    .logo {
-        fill: rgb(255, 255, 255);
+    .svg-el {
+        stroke: $accent-dark;
     }
+    .read-the-docs {
+        border-top: dashed 1.6px $accent-dark;
+      }
     .secondary {
         color: $secondary-dark;
     }
