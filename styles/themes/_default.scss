@@ -1,17 +1,13 @@
-
 @media (prefers-color-scheme: light) {
     body {
         @include light-theme;
-    }
-    
-   
+    }  
 }
 
 @media (prefers-color-scheme: dark) {
     body {
         @include dark-theme;
-    }
-   
+    }  
 }
 
 .dark-mode-buttons {
@@ -23,7 +19,6 @@
 .dark-mode-button {
     border: none;
     background-color: transparent;
-
     &:hover {
         cursor: pointer;
     }
@@ -31,11 +26,9 @@
 
 body:not(.dark-mode) {
     @include light-theme;
-
     #dark-mode-on {
         display: inline;
     }
-
     #dark-mode-off {
         display: none;
     }
@@ -44,13 +37,10 @@ body:not(.dark-mode) {
 
 body.dark-mode {
     @include dark-theme;
-
     #dark-mode-on {
         display: none;
     }
-
     #dark-mode-off {
         display: inline;
     }
-    
 }

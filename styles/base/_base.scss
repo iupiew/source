@@ -1,39 +1,6 @@
 :root {
-  font-family: monospace;
-  line-height: 1.5;
-  font-weight: 400;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  text-decoration: inherit;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-#social {
-  font-size: large;
-  padding: 1em;
-}
-#cv-link {
-  color: $secondary;
-  text-decoration: underline;
-}
-.svg-el {
-  stroke: $accent-dark;
-  stroke-width:1.6;
-}
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-family: 'Orbitron', monospace;
+  line-height: 1.6;
 }
 
 #app {
@@ -43,17 +10,51 @@ h1 {
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
 }
 
+/*
+#logo{
+  animation-name: spin;
+  animation-duration: 100000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
 
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+*/
 
-.card {
+#social {
+  font-size: large;
   padding: 2em;
+  a {
+    padding: .7em;
+  }
+}
+
+#link {
+  color: $secondary;
+  transition: .5s;
+}
+#link:hover {
+  color: $link;
+  transition: .2s;
+}
+#footnote {
+  font-size: x-small;
+  position: absolute;
+  color: $secondary;
+  right: 1em;
+  bottom: 0;
+  
 }
 
 .read-the-docs {
@@ -61,34 +62,3 @@ h1 {
   padding: 1em;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
