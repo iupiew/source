@@ -1,13 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
 :root {
-  font-family: 'Orbitron', monospace;
+  font-family: 'Oxanium', monospace;
+  font-weight: 300;
   line-height: 1.6;
 }
 
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  text-align: center;  
 }
 
 body {
@@ -16,25 +20,21 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  
 }
 
-/*
-#logo{
-  animation-name: spin;
-  animation-duration: 100000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
 
-@keyframes spin {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+
+#url {
+  position: absolute;
+  top: 0;
+  left: 1em;
+  font-size: medium;
+  text-decoration: underline;
 }
-*/
 
 #social {
   font-size: large;
-  padding: 2em;
   a {
     padding: .7em;
   }
@@ -42,10 +42,10 @@ body {
 
 #link {
   color: $secondary;
-  transition: .5s;
+  transition: .1s;
 }
 #link:hover {
-  color: $link;
+  color: rgb(119, 0, 231);
   transition: .2s;
 }
 #footnote {
@@ -54,21 +54,22 @@ body {
   color: $secondary;
   right: 1em;
   bottom: 0;
-  
-}
-
-.read-the-docs {
-  color: #888;
-  padding: 1em;
 }
 
 @media only screen and (max-width: 540px) {
   :root {
-    
     line-height: 1.4;
   }
+  #url {
+    font-size: smaller;
+  }
+
+
+  #social {
+    padding-bottom: 1em;
+  }
   #footnote {
-    padding-top: 1em;
+    padding: 2em;
     position:inherit;
     right: 0;
     
