@@ -14,7 +14,7 @@ document.querySelector('#app').innerHTML = `
   <h2 id="intro-text"">Hi! This is my website! Currently there is nothing here...</h2>
   
   <div id="links">
-    <a id="link" href="www.linkedin.com/in/vasiliyo">Linkedin</a>
+    <a id="link" href="https://linkedin.com/in/vasiliyo">Linkedin</a>
     <a id="link" href="https://github.com/iupiew">Github</a>
     <a id="link" href="https://github.com/iupiew/source">Source code</a>
   </div>
