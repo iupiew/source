@@ -26,6 +26,14 @@ body {
     font-size: medium;
     text-decoration: none;
   }
+  #links {
+    padding: 1em;
+    font-size: large;
+    #link {
+      margin: 0 .5em;
+      text-decoration: none;
+    }
+  }
 }
 
 
