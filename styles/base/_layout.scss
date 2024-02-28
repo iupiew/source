@@ -1,6 +1,7 @@
 #app {
   margin: 0 auto;
-  text-align: center;  
+  text-align: center;
+  min-width: 320px;
 }
 
 body {
@@ -12,11 +13,14 @@ body {
   font-family: $font;
   font-weight: 300;
   line-height: 1.4;
-  #intro-text {
-      font-size: x-large;
-  }
+  
   #content {
     padding: 2em;
+  }
+  #intro-text {
+    
+    
+    transition: .2s;
   }
   #url {
     font-family: monospace;
@@ -34,9 +38,25 @@ body {
       text-decoration: none;
     }
   }
+  #source-code {
+    position: absolute;
+    bottom: 2em;
+    right: 2em;
+    text-decoration: none;
+    font-size: small;
+  }
 }
 
 
+@media only screen and (max-width: 420px) {
+  #intro-text {
+    font-size: medium;
+    transition: .2s;
+  }
+}
 
-
-
+@media only screen and (min-width: 420px) {
+  #intro-text {
+    padding: 1em;
+  }
+}

@@ -16,8 +16,8 @@ document.querySelector('#app').innerHTML = `
   <div id="links">
     <a id="link" href="https://linkedin.com/in/vasiliyo">Linkedin</a>
     <a id="link" href="https://github.com/iupiew">Github</a>
-    <a id="link" href="https://github.com/iupiew/source">Source code</a>
   </div>
+  <a id="source-code" href="https://github.com/iupiew/source">Source</a>
 <div> 
 `
 const cls = document.body.classList;
