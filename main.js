@@ -1,6 +1,10 @@
 import './styles/main.scss'
 import lightModeIcon from '/images/light_mode.svg'
 import darkModeIcon from '/images/dark_mode.svg'
+import githubDark from '/images/social/github-mark-dark.svg'
+import githubLight from '/images/social/github-mark-light.svg'
+import discordDark from '/images/social/discord-mark-dark.svg'
+import discordLight from '/images/social/discord-mark-light.svg'
 
 document.querySelector('#app').innerHTML = `
 <div id="content">
@@ -14,8 +18,14 @@ document.querySelector('#app').innerHTML = `
   <h2 id="intro-text"">Hi! This is my website! Currently there is nothing here...</h2>
   
   <div id="links">
-    <a id="link" href="https://linkedin.com/in/vasiliyo">Linkedin</a>
-    <a id="link" href="https://github.com/iupiew">Github</a>
+
+    <a class="link" id="dark-mode-on" href="https://github.com/iupiew"><img src="${githubDark}" width="42.0" height="42.0" alt="Dark mode" aria-label="dark mode toggle" title="Dark mode"></a>
+    <a class="link" id="dark-mode-off" href="https://github.com/iupiew"><img src="${githubLight}" width="42.0" height="42.0" alt="Dark mode" aria-label="dark mode toggle" title="Dark mode"></a>
+
+    <a class="link" id="dark-mode-on" href="https://discord.com/users/1105489561309675673"><img src="${discordDark}" width="42.0" height="42.0" alt="Dark mode" aria-label="dark mode toggle" title="Dark mode"></a>
+    <a class="link" id="dark-mode-off" href="https://discord.com/users/1105489561309675673"><img src="${discordLight}" width="42.0" height="42.0" alt="Dark mode" aria-label="dark mode toggle" title="Dark mode"></a>
+
+    
   </div>
   <a id="source-code" href="https://github.com/iupiew/source">Source</a>
 <div> 

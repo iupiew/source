@@ -17,11 +17,7 @@ body {
   #content {
     padding: 2em;
   }
-  #intro-text {
-    
-    
-    transition: .2s;
-  }
+  
   #url {
     font-family: monospace;
     position: fixed;
@@ -33,10 +29,14 @@ body {
   #links {
     padding: 1em;
     font-size: large;
-    #link {
-      margin: 0 .5em;
+    .link {
+      margin: 0 1.2em;
       text-decoration: none;
+    
     }
+    
+    
+    
   }
   #source-code {
     position: absolute;
@@ -51,7 +51,7 @@ body {
 @media only screen and (max-width: 420px) {
   #intro-text {
     font-size: medium;
-    transition: .2s;
+    
   }
 }
 
