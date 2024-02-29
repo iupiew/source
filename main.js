@@ -19,11 +19,11 @@ document.querySelector('#app').innerHTML = `
   
   <div id="links">
 
-    <a class="link" id="dark-mode-on" href="https://github.com/iupiew"><img src="${githubDark}" width="42.0" height="42.0" alt="Dark mode" aria-label="dark mode toggle" title="Dark mode"></a>
-    <a class="link" id="dark-mode-off" href="https://github.com/iupiew"><img src="${githubLight}" width="42.0" height="42.0" alt="Dark mode" aria-label="dark mode toggle" title="Dark mode"></a>
+    <a class="link" id="dark-mode-on" href="https://github.com/iupiew"><img src="${githubDark}" width="42.0" height="42.0" alt="Dark mode" aria-label="dark mode toggle" title="Github"></a>
+    <a class="link" id="dark-mode-off" href="https://github.com/iupiew"><img src="${githubLight}" width="42.0" height="42.0" alt="Dark mode" aria-label="dark mode toggle" title="Github"></a>
 
-    <a class="link" id="dark-mode-on" href="https://discord.com/users/1105489561309675673"><img src="${discordDark}" width="42.0" height="42.0" alt="Dark mode" aria-label="dark mode toggle" title="Dark mode"></a>
-    <a class="link" id="dark-mode-off" href="https://discord.com/users/1105489561309675673"><img src="${discordLight}" width="42.0" height="42.0" alt="Dark mode" aria-label="dark mode toggle" title="Dark mode"></a>
+    <a class="link" id="dark-mode-on" href="https://discord.com/users/1105489561309675673"><img src="${discordDark}" width="42.0" height="42.0" alt="Dark mode" aria-label="dark mode toggle" title="Discord"></a>
+    <a class="link" id="dark-mode-off" href="https://discord.com/users/1105489561309675673"><img src="${discordLight}" width="42.0" height="42.0" alt="Dark mode" aria-label="dark mode toggle" title="Discord"></a>
 
     
   </div>
