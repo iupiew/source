@@ -11,19 +11,19 @@ document.querySelector('#app').innerHTML = `
   <h2 id="url">https://iupiew.xyz</h2>
 
   <div class="dark-mode-buttons">
-    <button class="dark-mode-button" id="dark-mode-on"><img src="${darkModeIcon}" width="24" height="24" alt="Dark mode" aria-label="dark mode toggle" title="Dark mode"></button>
-    <button class="dark-mode-button" id="dark-mode-off"><img src="${lightModeIcon}" width="24" height="24" alt="Light mode" aria-label="light mode toggle" title="Light mode"></button>
+    <button class="dark-mode-button" id="dark-mode-on"><img src="${darkModeIcon}" width="24" height="24" title="Dark mode"></button>
+    <button class="dark-mode-button" id="dark-mode-off"><img src="${lightModeIcon}" width="24" height="24" title="Light mode"></button>
   </div>
   
   <h2 id="intro-text"">Hi! This is my website! Currently there is nothing here...</h2>
   
   <div id="links">
 
-    <a class="link" id="dark-mode-on" href="https://github.com/iupiew"><img src="${githubDark}" width="42.0" height="42.0" alt="Dark mode" aria-label="dark mode toggle" title="Github"></a>
-    <a class="link" id="dark-mode-off" href="https://github.com/iupiew"><img src="${githubLight}" width="42.0" height="42.0" alt="Dark mode" aria-label="dark mode toggle" title="Github"></a>
+    <a class="link" id="dark-mode-on" href="https://github.com/iupiew"><img src="${githubDark}" width="42.0" height="42.0" title="Github"></a>
+    <a class="link" id="dark-mode-off" href="https://github.com/iupiew"><img src="${githubLight}" width="42.0" height="42.0" title="Github"></a>
 
-    <a class="link" id="dark-mode-on" href="https://discord.com/users/1105489561309675673"><img src="${discordDark}" width="42.0" height="42.0" alt="Dark mode" aria-label="dark mode toggle" title="Discord"></a>
-    <a class="link" id="dark-mode-off" href="https://discord.com/users/1105489561309675673"><img src="${discordLight}" width="42.0" height="42.0" alt="Dark mode" aria-label="dark mode toggle" title="Discord"></a>
+    <a class="link" id="dark-mode-on" href="https://discord.com/users/1105489561309675673"><img src="${discordDark}" width="42.0" height="42.0" title="Discord"></a>
+    <a class="link" id="dark-mode-off" href="https://discord.com/users/1105489561309675673"><img src="${discordLight}" width="42.0" height="42.0" title="Discord"></a>
 
     
   </div>
