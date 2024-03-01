@@ -13,11 +13,9 @@ body {
   font-family: $font;
   font-weight: 300;
   line-height: 1.4;
-  
   #content {
     padding: 2em;
   }
-  
   #url {
     font-family: monospace;
     position: fixed;
@@ -32,11 +30,7 @@ body {
     .link {
       margin: 0 1.2em;
       text-decoration: none;
-    
-    }
-    
-    
-    
+    }   
   }
   #source-code {
     position: absolute;
@@ -47,7 +41,6 @@ body {
   }
 }
 
-
 @media only screen and (max-width: 420px) {
   #intro-text {
     font-size: medium;
@@ -57,6 +50,6 @@ body {
 
 @media only screen and (min-width: 420px) {
   #intro-text {
-    padding: 1em;
+    padding: 1.2em;
   }
 }
